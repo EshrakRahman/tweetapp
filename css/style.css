@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Ubuntu:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+main{
+}
+.tweet-app{
+}
+.intro{
+
+
+}
+.intro h1{
+    text-align: center;
+}
+.line{
+    display: inline-block;
+    height: 4px;
+    width: 80%;
+    background-color: #2DADA5;
+    float: left;
+    margin: 14px 0;
+    padding: 0;
+}
+.tweet-delete-search{
+    float: right;
+    margin-right: 150px;
+}
+.search-tweet{
+}
+.fix::before, .fix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper{
+
+}
+/*tweet area css*/
+.create-tweet{
+    width: 400px;
+    height: 150px;
+    margin-left: 50px;
+    border: 2px solid #8E35D4;
+}
+
+.write-tweet{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: .7rem 1rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    display: block;
+    border-bottom: 0.3rem solid #8E35D4;
+    transition: all 0.3s;
+}
+.btn{
+    background-color: #111827;
+    border: 1px solid #2DADA5;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 10px 0 0 10px;
+    padding: 10px 20px 10px 20px;
+}
+.btn:hover{
+    background-color: #2DADA5;
+}
+/*tweet delete and search*/
+.tweet-delete-search{
+    border: 2px solid #2DADA5;
+    width: 400px;
+}
+.search-tweet{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: .7rem 1rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    border-bottom: 0.3rem solid #8E35D4;
+    transition: all 0.3s;
+}
+
+.input-search{
+    padding: 10px 20px 10px 50px;
+}
+.tweet-list{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.tweet-list ol li{
+}
+/*.btn {*/
+/*    background-color: #111827;*/
+/*    border: 1px solid transparent;*/
+/*    border-radius: .75rem;*/
+/*    box-sizing: border-box;*/
+/*    color: #FFFFFF;*/
+/*    cursor: pointer;*/
+/*    !*flex: 0 0 auto;*!*/
+/*    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";*/
+/*    font-size: 1.125rem;*/
+/*    font-weight: 600;*/
+/*    line-height: 1.5rem;*/
+/*    !*padding: 10px 20px;*!*/
+/*    text-align: center;*/
+/*    text-decoration: none #6B7280 solid;*/
+/*    text-decoration-thickness: auto;*/
+/*    transition-duration: .2s;*/
+/*    transition-property: background-color,border-color,color,fill,stroke;*/
+/*    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);*/
+/*    user-select: none;*/
+/*    -webkit-user-select: none;*/
+/*    touch-action: manipulation;*/
+/*    width: auto;*/
+/*}*/
+
+/*.btn:hover {*/
+/*    background-color: #374151;*/
+/*}*/
+
+/*.btn:focus {*/
+/*    box-shadow: none;*/
+/*    outline: 2px solid transparent;*/
+/*    outline-offset: 2px;*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+/*    .btn {*/
+/*        padding: .75rem 1.5rem;*/
+/*    }*/
+/*}*/
+
