@@ -42,6 +42,7 @@ function getDataFromLocalStorage(data) {
 
 }
 
+
 // Populate to ui
 function updateUiWithTweets() {
 
