@@ -1,6 +1,6 @@
-# Basic Tweet Tweet vanilaJs project
+# Basic Tweet Tweet vanillaJs project
 
-This is a pure vanilaJs project. I continued my journey on learning JS. In this project, I learned many things such as organizing code in a better way. Debug my own code more efficiently. Thinking as a JS Engineer.
+This is a pure vanillaJs project. I continued my journey on learning JS. In this project, I learned many things such as organizing code in a better way. Debug my own code more efficiently. Thinking as a JS Engineer.
 
 ## Table of contents
 
@@ -38,7 +38,7 @@ my logic. How I will implement that logic in works.
 
 - Semantic HTML5 markup
 - CSS custom properties
-- vanilaJs
+- vanillaJs
 - No framework used
 
 
@@ -55,4 +55,4 @@ I have learned a lot of things through this project. The first thing I learned i
 
 ## Acknowledgments
 
-Finaly I want to thank [webdeveloper bd](https://www.youtube.com/c/webdeveloperbd) youtube channel.
+Finally, I want to thank [webdeveloper bd](https://www.youtube.com/c/webdeveloperbd) youtube channel.
