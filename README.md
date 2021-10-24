@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Player vs Player vanilaJs beginner project](https://eshrakrahman.github.io/tweetapp/)
+- Live Site URL: [Tweet Tweet app with vanilla Js](https://eshrakrahman.github.io/tweetapp/)
 
 ## My process
 First I tried to lay out my process on paper. Then I build the UI. After building the UI I started working on
