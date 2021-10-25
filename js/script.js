@@ -12,7 +12,7 @@ const msgElm = document.querySelector(".msg");
 function loadAllEvtListener() {
     submitBtn.addEventListener('click', addTweetToUi);
     tweetListElm.addEventListener('click', deleteTweet);
-    filterTweetElm.addEventListener('keyup', searchTweet)
+    filterTweetElm.addEventListener('keyup', searchTweet);
 }
 // data store
 let tweetData = getDataFromLocalStorage();
@@ -64,7 +64,7 @@ function showTweetToUi(tweetsList) {
             li.id = `tweet-${tweet.id}`;
             li.innerHTML = `
          <li class="tweet-items" id="tweet-${tweet.id}">
-         <span>${tweet.message}:</span>
+         <span class="tweet-msg">${tweet.message}</span>
          <button class="delete-tweet">Delete</button>
         </li>
         `
@@ -105,7 +105,7 @@ let addTweetToUi = (evt) => {
 
 
 // delete item
-let deleteTweet = evt => {
+let deleteTweet = (evt) => {
     if(evt.target.classList.contains('delete-tweet')){
         // removing tweet from ui
         const deleteTweet = evt.target.parentElement;
@@ -129,13 +129,12 @@ let deleteTweet = evt => {
 
 
 // search tweet
-let searchTweet = evt => {
-    const text = evt.target.value;
-    text.toLowerCase();
-    const tweetMsg = document.querySelectorAll('.tweet-collections .tweet-items');
-    tweetMsg.forEach(tweet => {
-        const individualTweet = tweet.firstElementChild.textContent;
-        individualTweet.toLowerCase();
+let searchTweet = (evt) => {
+    const text = evt.target.value.toLowerCase();
+    document.querySelectorAll('.tweet-msg').forEach(tweet => {
+
+        const individualTweet = tweet.firstChild.textContent.toLowerCase();
+        console.log(individualTweet);
 
         //    check
         if (individualTweet.indexOf(text) === -1){
@@ -145,8 +144,7 @@ let searchTweet = evt => {
             tweetListElm.innerHTML = '';
             tweet.style.display = 'block';
         }
-
-    })
+    });
 };
 
 
